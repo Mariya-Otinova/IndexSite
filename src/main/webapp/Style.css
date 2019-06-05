@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #E0FFFF;
+    overflow: auto;
+    min-height: fit-content;
+    min-width: fit-content;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.flexbody {
+    min-height: fit-content;
+    min-width: fit-content;
+}
+.banner {
+    display: flex;
+    align-items: stretch; /* Растягиваем */
+    flex-direction: row; /*задаём основную ось*/
+    background: #FF7F50;
+}
+.flexheader {
+    margin-left: 30px; /* Расстояние между блоками */
+    width: 50%;
+}
+.logo {
+    padding: 10px 70px 10px 70px;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: BatangChe;
+    color: #008080;
+}
+.description {
+    padding: 25px 70px 25px 70px;
+    font-size: 16pt;
+    font-family: Arial;
+    font-style: italic;
+    color: #AFEEEE;
+    font-weight: bold;
+    white-space: nowrap;
+}
+main {
+    display: flex;
+    align-items: center; /* Растягиваем */
+    flex-direction: row;
+    flex: 1 1 0%;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+.flexmain {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.interface {
+    font-family: Arial;
+    color: #008080;
+}
+.but {
+    background: #008080;
+    color: #AFEEEE;
+    font-family: Arial;
+    font-size: 16pt;
+    padding: 5px 15px 5px 15px;
+    border: #AFEEEE outset 2px;
+}
+.ingress, .cancel {
+    margin: 20px;
+}
+.add, .del, .index {
+    margin: 3px 10px 3px 10px;
+}
+.password2 {
+    display: none;
+}
+.go_out {
+    margin: 17px 100px 17px 350px;
+}
+a {
+    color: #008080;
+    font-family: Arial;
+    margin: 10px;
+}
+a:active {
+    color: #AFEEEE;
+}
+.histograms {
+    height: 450px;
+    width: 600px;
+    text-align: center;
+}
+.histname, .word, .letter {
+    color: #008080;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16pt;
+    white-space: nowrap;
+    padding: 5px;
+}
+.hist {
+    min-width: 600px;
+    min-height: 385px;
+}
+.hword {
+    background: #E0FFFF;
+    position: absolute;
+    z-index: 1000;
+}
+.hletter {
+    background: #E0FFFF;
+    position: absolute;
+    z-index: 1;
+}
+table {
+    width: 670px;
+    border-collapse: collapse;
+}
+.table {
+    align-self: flex-start;
+}
+thead {
+    background: #FF7F50;
+    color: #008080;
+    font-family: Arial;
+    font-size: 14px;
+    width: 670px;
+}
+tbody {
+    overflow: auto;
+}
+tfoot {
+    background: #AFEEEE;
+    width: 670px;
+}
+th, td {
+    border: solid 1px #008080;
+    max-width: 173px;
+}
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.in {
+}
+footer {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    flex: 0 0 auto;
+    background: #AFEEEE; /*цвет фона элемента*/
+}
+.tie {
+    padding: 7px 70px 7px 70px; /*отступы внутрь до вложенных элементов*/
+}
+.developer {
+    color: #20B2AA;
+    white-space: nowrap;
+}
+.Contact_details {
+    color: #20B2AA;
+    white-space: nowrap;
+}
