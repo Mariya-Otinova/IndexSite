@@ -44,3 +44,8 @@ Jsp, Servlet, JSTL and MySQL Simple CRUD Application</a></p>
 <p>Видео <a href="https://www.youtube.com/watch?v=LCsIuCGrCL0">Асинхронность в JavaScript. Callback, Promise и Async/Await.</a></p>
 <p>Видео <a href="https://www.youtube.com/watch?time_continue=2614&v=SF5yHkfiZkY">Общение с сервером в JavaScript. Ajax и Fetch.</a></p>
 <p><a href="https://javarush.ru/groups/posts/1939-comparator-v-java">Comparator в Java</a></p>
+<p><a href="https://o7planning.org/ru/10399/jsoup-java-html-parser-tutorial">Использование Java JSoup для анализа кода HTML</a></p>
+<p>Видеокурс по html/css/js</p>
+<p><a href="https://www.youtube.com/watch?v=WrjTPkw8aoA">Урок 1 HTML</a></p>
+<p><a href="https://www.youtube.com/watch?v=pJ6l29fpi3s">Урок 2 CSS</a></p>
+<p><a href="https://www.youtube.com/watch?v=xVyq-NwFMCU">Урок 3 JavaScript</a></p>
